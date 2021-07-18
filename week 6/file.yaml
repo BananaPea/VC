@@ -1,0 +1,13 @@
+file_type: csv
+dataset_name: NYC parking tickets
+file_name: Parking_Violations_Issued_-_Fiscal_Year_2015
+table_name: Parking_Violations_Issued_-_Fiscal_Year_2015
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Number
+    - City
+    - Gender
+    - Age
+    - Income
